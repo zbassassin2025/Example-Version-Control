@@ -15,11 +15,11 @@ C:/Users/zacbo/OneDrive/Desktop/ExampleVersionControl/ExampleVersionControl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50753
+52334
 Successfully changed project path to: C:/Users/zacbo/OneDrive/Desktop/ExampleVersionControl/ExampleVersionControl
 C:/Users/zacbo/OneDrive/Desktop/ExampleVersionControl/ExampleVersionControl
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path D:/Unity_2020/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,84 +35,52 @@ Initialize mono
 Mono path[0] = 'D:/Unity_2020/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity_2020/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity_2020/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity_2020/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity_2020/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001691 seconds.
+Registered in 0.001434 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 18.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.397 seconds
+- Completed reload, in  2.377 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000757 seconds.
+Registered in 0.000842 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
+- Completed reload, in  0.873 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.4 MB.
+System memory in use before: 53.3 MB.
 System memory in use after: 53.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1418.
-Total: 1.602900 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.339000 ms  DeleteObjects: 0.044200 ms)
+Total: 2.027500 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.735800 ms  DeleteObjects: 0.054000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ToCommit/NewCommit.prefab
-  artifactKey: Guid(966ab14e39537504dbf29c7766051293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToCommit/NewCommit.prefab using Guid(966ab14e39537504dbf29c7766051293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15b371754fcd770b181818c54aa3e9e') in 0.101954 seconds
-  Import took 0.103592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1674.374669 seconds.
-  path: Assets/ToCommit/CommitToMain.prefab
-  artifactKey: Guid(8e39d3955288ca74cbdfc40a9db5ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToCommit/CommitToMain.prefab using Guid(8e39d3955288ca74cbdfc40a9db5ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd716a4dda341e3787c584f26a0b67641') in 0.022521 seconds
-  Import took 0.024555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
   path: Assets/ToCommit/Main(Master)Commit.prefab
   artifactKey: Guid(d8c021612a514034a8f87a2a631fed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToCommit/Main(Master)Commit.prefab using Guid(d8c021612a514034a8f87a2a631fed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01d2687d8c7292c4aad819d390181a6') in 0.011764 seconds
-  Import took 0.013374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/ToCommit/MainCommit.prefab
-  artifactKey: Guid(8befe95e9dabecc4d9e6dfce10b47640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToCommit/MainCommit.prefab using Guid(8befe95e9dabecc4d9e6dfce10b47640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f377ef9f3750ea12964e3828daed00') in 0.011036 seconds
-  Import took 0.012608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.366833 seconds.
-  path: Assets/ToCommit/CommitToMain.prefab
-  artifactKey: Guid(8e39d3955288ca74cbdfc40a9db5ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToCommit/CommitToMain.prefab using Guid(8e39d3955288ca74cbdfc40a9db5ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd716a4dda341e3787c584f26a0b67641') in 0.008059 seconds
-  Import took 0.009785 seconds .
+Start importing Assets/ToCommit/Main(Master)Commit.prefab using Guid(d8c021612a514034a8f87a2a631fed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e359bf0a34cc9c66704d2c0df87a089d') in 0.114883 seconds
+  Import took 0.116522 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
